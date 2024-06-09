@@ -4,7 +4,7 @@ fastapi-cli==0.0.4
 fastjsonschema==2.19.1
 gpiozero==1.6.2
 gunicorn==22.0.0
-prometheus-client==0.19.0
+prometheus-client==0.20.0
 RPi.GPIO==0.7.1
 RTIMULib==7.2.1
 sense-hat==2.6.0
