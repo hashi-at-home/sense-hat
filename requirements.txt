@@ -2,7 +2,7 @@ black==24.3.0
 fastapi==0.111.0
 fastapi-cli==0.0.4
 fastjsonschema==2.19.1
-gpiozero==1.6.2
+gpiozero==2.0.1
 gunicorn==22.0.0
 prometheus-client==0.19.0
 RPi.GPIO==0.7.1
