@@ -9,4 +9,4 @@ RPi.GPIO==0.7.1
 RTIMULib==7.2.1
 sense-hat==2.6.0
 uvicorn==0.30.1
-webcolors==1.13
+webcolors==24.6.0
