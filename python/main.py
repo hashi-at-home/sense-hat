@@ -1,20 +1,29 @@
+from typing import Union
 from sense_hat import SenseHat
-from prometheus_client import Gauge, start_http_server
 from fastapi import FastAPI
+from prometheus_client import Gauge, start_http_server
+
 
 app = FastAPI()
 sense = SenseHat()
 sense.low_light = True
 
 
+def get_sense_data():
+    sense_data = []
+    sense_data.append(sense.get_temperature_from_humidity())
+
+
 @app.get("/")
 def read_root():
+    sense.show_message("Hello World")
     return {"Hello": "world"}
 
 
-def get_sense_data():
-    sense_data = []
-    sense_data.append(sense_data.get_temperature_from_humidity())
+@app.get("/sense/health")
+def read_sense_health():
+    sense.show_message("OK")
+    return "OK"
 
 
 def main():
