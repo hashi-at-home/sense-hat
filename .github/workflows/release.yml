@@ -1,0 +1,11 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  validate:
+    runs-on: self-hosted
+    steps:
+      - name: hello-world
+        run:  echo hello-world
