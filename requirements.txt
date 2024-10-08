@@ -1,4 +1,4 @@
-black==24.8.0
+black==24.10.0
 fastapi==0.115.0
 fastapi-cli==0.0.5
 fastjsonschema==2.20.0
