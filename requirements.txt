@@ -8,5 +8,5 @@ prometheus-client==0.21.0
 RPi.GPIO==0.7.1
 RTIMULib==7.2.1
 sense-hat==2.6.0
-uvicorn==0.31.0
+uvicorn==0.31.1
 webcolors==24.8.0
