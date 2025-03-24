@@ -1,5 +1,5 @@
 black==25.1.0
-fastapi==0.115.11
+fastapi==0.115.12
 fastapi-cli==0.0.7
 fastjsonschema==2.21.1
 gpiozero==2.0.1
