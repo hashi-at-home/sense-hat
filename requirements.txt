@@ -1,6 +1,6 @@
 black==25.1.0
 fastapi==0.116.1
-fastapi-cli==0.0.8
+fastapi-cli==0.0.10
 fastjsonschema==2.21.2
 gpiozero==2.0.1
 gunicorn==23.0.0
