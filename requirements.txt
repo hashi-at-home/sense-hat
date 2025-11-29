@@ -1,12 +1,13 @@
 black==25.11.0
-fastapi==0.122.0
-fastapi-cli==0.0.16
-fastjsonschema==2.21.2
+# fastapi==0.122.0
+# fastapi-cli==0.0.16
+# fastjsonschema==2.21.2
 gpiozero==2.0.1
-gunicorn==23.0.0
-prometheus-client==0.23.1
+# gunicorn==23.0.0
+# prometheus-client==0.23.1
 RPi.GPIO==0.7.1
-RTIMULib==7.2.1
+# RTIMULib==7.2.1
 sense-hat==2.6.0
 uvicorn==0.38.0
 webcolors==25.10.0
+py-consul==1.7.1
