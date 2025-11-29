@@ -1,0 +1,14 @@
+[settings]
+python.uv_venv_auto = true
+[env]
+
+
+[tools]
+uv = 'latest'
+python = "3.12.3"
+ruff = "latest"
+
+[tasks.install]
+description = "Install all tools"
+alias = "i"
+run = "uv pip install -r requirements.txt"
