@@ -1,7 +1,8 @@
 [settings]
 python.uv_venv_auto = true
 [env]
-
+uv_create_args = ['--seed']
+_.python.venv = { path = ".venv", create = true } # create the venv if it doesn't exist
 
 [tools]
 uv = 'latest'
