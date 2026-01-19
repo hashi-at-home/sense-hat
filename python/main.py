@@ -3,7 +3,6 @@ from sense_hat import SenseHat
 from fastapi import FastAPI
 from prometheus_client import Gauge, start_http_server
 
-
 app = FastAPI()
 sense = SenseHat()
 sense.low_light = True
