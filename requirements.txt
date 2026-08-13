@@ -8,6 +8,6 @@ gpiozero==2.0.1.post3
 RPi.GPIO==0.7.1
 # RTIMULib==7.2.1
 sense-hat==2.6.0
-uvicorn==0.52.1
+uvicorn==0.52.3
 webcolors==25.10.0
 py-consul==1.7.1
