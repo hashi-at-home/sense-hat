@@ -10,4 +10,4 @@ RPi.GPIO==0.7.1
 sense-hat==2.6.0
 uvicorn==0.54.0
 webcolors==25.10.0
-py-consul==1.7.1
+py-consul==1.8.0
