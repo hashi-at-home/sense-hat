@@ -1,12 +1,13 @@
 [settings]
-python.uv_venv_auto = true
+python.uv_venv_auto = "create|source"
+
 [env]
 _.python.venv = { path = ".venv", create = true, uv_create_args = ['--seed'] }
-_.python.venv = { path = ".venv", create = true } # create the venv if it doesn't exist
 
 [tools]
-uv = 'latest'
-python = "3.12.0"
+prek = '0.5'
+uv = '0.13'
+python = "3.14"
 ruff = "latest"
 
 [tasks.install]
