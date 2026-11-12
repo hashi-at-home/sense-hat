@@ -1,6 +1,5 @@
-#!/usr/bin/python
 import time
-import consul
+
 from sense_hat import SenseHat
 
 sense = SenseHat()
@@ -8,8 +7,6 @@ sense = SenseHat()
 r = 255
 g = 0
 b = 0
-
-msleep = lambda x: time.sleep(x / 1000.0)
 
 
 def next_colour():
@@ -38,5 +35,5 @@ def next_colour():
 
 while True:
     sense.clear([r, g, b])
-    msleep(2)
+    time.sleep(0.2)
     next_colour()
