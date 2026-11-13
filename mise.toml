@@ -7,7 +7,7 @@ _.python.venv = { path = ".venv", create = true, uv_create_args = ['--seed'] }
 [tools]
 prek = '0.5'
 uv = '0.13'
-python = "3.14"
+python = "3.15.2"
 ruff = "latest"
 
 [tasks.install]
